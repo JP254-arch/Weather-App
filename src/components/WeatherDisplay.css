@@ -1,0 +1,61 @@
+.weather-display {
+  text-align: center;
+  margin-top: 2rem;
+  color: inherit;
+}
+
+.current-weather {
+  margin-bottom: 2rem;
+}
+
+.current-weather h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.current-weather .temp {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.current-weather .condition {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.forecast-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  width: 70px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.app.dark .forecast-item {
+  background-color: rgba(50, 50, 50, 0.6);
+}
+
+.forecast-item:hover {
+  transform: translateY(-4px);
+}
+
+.day {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.temp {
+  font-weight: 500;
+}

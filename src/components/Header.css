@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+  align-items: center;
+  background-color: transparent;
+  color: inherit;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 0.6;
+}

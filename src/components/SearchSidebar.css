@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  z-index: 20;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.sidebar button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  width: 100%;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
